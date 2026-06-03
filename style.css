@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  /* 填入你想要的漂亮淡藍色 */
+  background-color: #E3F2FD; 
+  
+  /* 使用 Flexbox 讓裡面的遊戲畫面絕對置中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  /* 幫遊戲畫面加個小陰影和圓角，看起來質感大加分 */
+  border-radius: 12px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15); 
+}
